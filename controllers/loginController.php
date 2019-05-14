@@ -5,7 +5,7 @@ class loginController extends controller{
 
 		$this->loadView('login', $data = array());
 
-		$user = new Usuario();
+		$user = new User();
 		$user->logar();
 
 	}

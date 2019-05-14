@@ -26,9 +26,7 @@ class Usuario {
 				header("location:".BASE_URL);
 
 			} else{
-				echo "<span class='text-light'>EERROOOOOO</span>";
-				echo "<span class='text-light'>".$user."</span>";
-				echo "<span class='text-light'>".$pass."</span>";
+				//Modal de erro
 				
 				
 			}
